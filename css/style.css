@@ -1,0 +1,70 @@
+.container {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container > div {
+    height: 400px;
+}
+
+.container div {
+    outline: 1px solid black;
+}
+
+.first-row div {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background: aqua;
+}
+
+.second-row > div {
+    float: left;
+    background: chartreuse;
+    width: 800px;
+}
+
+.second-row > div > div {
+    height: 200px;
+}
+
+.second-row > div + div {
+    width: 400px;
+}
+
+.second-row > div + div > div {
+    height: 133.33px;
+}
+
+.third-row {
+    background: rebeccapurple;
+}
+
+.third-row > div {
+    float: left;
+    width: 400px
+    height: 400px;
+}
+
+.third-row > div + div {
+    width: 800px;
+}
+
+.third-row-one > div {
+    height: 200px;
+}
+
+.third-row-one > div + div {
+    width: 100%
+}
+
+.third-row-one > div + div > div {
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+
+.third-row-one > div + div > div > div {
+    height: 100px;
+}
